@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${exo.className} bg-primary`}>
+      <body className={`${exo.className} scrollbar-hide bg-primary`}>
         <Header />
         {children}
       </body>
