@@ -12,8 +12,9 @@ export default function AboutMe() {
           <br /> <br /> if you somewhat expected fancy animations & useless sections on this website, spoiler, you were
           wrong.
           <br /> <br /> i love minimalistic designs and i hate when people try to hide their crappy skills and make good
-          dev impressions with fancy animations.
-          <br /> <br /> keep it simple. <br /> <br />
+          dev impressions with fancy stuff.
+          <br /> <br /> i believe good dev is someone who cares about performance & design at the same time. keep it
+          simple. <br /> <br />
           <span className="font-bold text-[1.4rem] tracking-wider">USE IT WHEN REQUIRED</span> is my motto.
           <br /> <br /> (no it's not, i'm just trying to sound cool, i don't have a motto, i'm 19, i'm not that cool
           yet.)

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Exo_2 } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Vano",
@@ -23,6 +24,8 @@ export default function RootLayout({
       <body className={`${exo.className} scrollbar-hide bg-primary`}>
         <Header />
         {children}
+
+        <Toaster position="top-center" containerStyle={{ fontSize: "1.3rem" }} />
       </body>
     </html>
   );
