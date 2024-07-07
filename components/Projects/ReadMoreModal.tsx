@@ -23,7 +23,7 @@ export default function ReadMoreModal({ setModal, title, description, stack, url
       initial="hidden"
       animate="visible"
       exit="hidden"
-      className="w-full h-screen fixed px-[1rem] top-0 right-0 bg-[rgba(0,0,0,0.8)] flex justify-center items-center"
+      className="w-full h-[100dvh] fixed px-[1rem] top-0 right-0 bg-[rgba(0,0,0,0.8)] flex justify-center items-center"
     >
       <div className="xs:w-full sm:w-[40rem] p-[2rem] bg-white rounded-[1rem] shadow-md flex flex-col gap-[2rem]">
         <div className="w-full flex flex-col gap-[.5rem]">
